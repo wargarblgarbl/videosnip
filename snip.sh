@@ -1,9 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
+#some variables
 encoder="/usr/local/bin/x264"
 prefix="~/Mocha/"
 videoname="video.m4v"
 
+#need to refactor this a bit
 #echo -n "Enter video path: "
 #read vid
 echo -n "Enter start frame: "
